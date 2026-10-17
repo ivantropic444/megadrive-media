@@ -1,17 +1,7 @@
-# Retro 16 bits
+# Mega Drive · media
 
-**🌐 Web:** https://ivantropic444.github.io/megadrive-media/
+Imágenes y vídeos de la serie de Mega Drive (lunes, miércoles y viernes), por semanas (`semana-1/`, `semana-2/`…). Metricool los coge de aquí para programar los posts.
 
-Este repositorio guarda todo lo que publica la cuenta: la web y las imágenes y vídeos que Metricool usa para programar los posts.
+**🌐 Web de la cuenta:** https://ivantropic444.github.io/WebSite/ (repositorio WebSite)
 
-## Qué hay en cada carpeta
-
-| Carpeta o archivo | Qué es |
-|---|---|
-| `index.html` | La web |
-| [`WEB-CAMBIOS.md`](WEB-CAMBIOS.md) | Historial de cambios de la web |
-| `semana-1/`, `semana-2/`… | Posts de Mega Drive, por semanas |
-| `snes/` | Posts de Super Nintendo |
-| `industria/` | Posts de automatización industrial |
-
-Todo el contenido está creado con ayuda de IA.
+Contenido creado con ayuda de IA.
