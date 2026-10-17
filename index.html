@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retro 16 bits</title>
+<meta name="description" content="Videojuegos retro, empezando por la Mega Drive. Contenido creado con ayuda de IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0f2a;--blue:#2f6bff;--red:#ff3b5c;--yellow:#ffd23f;--text:#f4f1ea;--muted:#c3c8e6;--card:#141a45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#1d2a6b 0%,var(--bg) 60%);color:var(--text);font-family:'Space Grotesk',system-ui,sans-serif;display:flex;justify-content:center;padding:48px 16px}
+body:after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.15) 0 2px,transparent 2px 5px);pointer-events:none}
+main{width:100%;max-width:440px;text-align:center}
+.logo{font-family:'Press Start 2P',monospace;font-size:26px;line-height:1.5;text-shadow:4px 4px 0 var(--blue);margin:20px 0 14px}
+.sub{color:var(--muted);font-size:17px;margin-bottom:8px}
+.pill{display:inline-block;background:var(--yellow);color:var(--bg);font-weight:700;font-size:13px;padding:5px 12px;border-radius:999px;margin-bottom:32px}
+a.btn{display:block;background:var(--card);border:3px solid var(--blue);color:var(--text);text-decoration:none;font-weight:700;font-size:18px;padding:16px;margin-bottom:14px;box-shadow:5px 5px 0 var(--red);transition:transform .1s}
+a.btn:hover{transform:translate(-2px,-2px)}
+h2{font-family:'Press Start 2P',monospace;font-size:13px;color:var(--red);margin:40px 0 16px;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.grid img{width:100%;aspect-ratio:4/5;object-fit:cover;border:2px solid var(--card)}
+footer{color:var(--muted);font-size:13px;margin-top:36px}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">RETRO<br>16 BITS</div>
+  <p class="sub">Videojuegos retro. Empezamos por la Mega Drive.</p>
+  <span class="pill">Creado con IA</span>
+  <a class="btn" href="https://www.instagram.com/thinksmart_iaf/">Instagram</a>
+  <a class="btn" href="https://www.tiktok.com/@ivantropic444">TikTok</a>
+  <a class="btn" href="https://www.facebook.com/1442134562306416">Facebook</a>
+  <h2>ÚLTIMOS POSTS</h2>
+  <div class="grid">
+    <img src="semana-1/post01/post01-01.png" alt="La Mega Drive en 5 datos">
+    <img src="semana-1/post03/post03-01.png" alt="5 curiosidades de la Mega Drive">
+    <img src="semana-2/post05/post05-01.png" alt="Mega Drive vs Super Nintendo">
+  </div>
+  <footer>Contenido creado con ayuda de IA. Las marcas citadas pertenecen a sus dueños.</footer>
+</main>
+</body>
+</html>
